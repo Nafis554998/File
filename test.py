@@ -333,23 +333,7 @@ class main_crack():
                    except:pass
             result(oks,cps)
 #++++++++LICENCES++++++++#
-import getpass
-attemps = 0
-os.system('clear')
-print(logo)
-while attemps < 999999999998888888888889999999999999999999999999999:
-    username = input(f'\x1b[38;5;196m[\x1b[38;5;46m≈\x1b[38;5;196m]\x1b[38;5;46m PUT LICENSE ❯ ')
-    os.system('clear');print(logo)
-    if username == '69':
-        print('\x1b[38;5;196m[\x1b[38;5;46m✅\x1b[38;5;196m]\x1b[38;5;48mSUCCESSFUL LICENSE')
-        break
-    else:
-        print('\x1b[38;5;196m[\x1b[38;5;46m×\x1b[38;5;196m]\x1b[38;5;47mINCORRECT LICENSE \x1b[38;5;46m[❌\x1b[38;5;46m] ')
-        time.sleep(0.2)
-        os.system('clear')
-        print(logo)
-        attemps += 1
-        continue
+
 import os,httpx
 def approval():
     TEAM69="TEAM69+"
@@ -366,7 +350,7 @@ def approval():
         print("\033[1;97m[\033[1;32m+\033[1;97m] \033[1;32mPAID BUT FREE\033[1;97m ● \033[1;32mFOR FRIEND ")
         print("\033[1;97m[\033[1;32m+\033[1;97m] \033[1;32mYour key :\x1b[1;96m "+TEAM69+HENTAI+key)
         print(41*'\033[1;97m—')
-        #name = input("\033[1;97m[\033[1;97m≈\033[1;97m] \033[1;32mYOUR NAME : ")
+        name = input("\033[1;97m[\033[1;97m≈\033[1;97m] \033[1;32mYOUR NAME : ")
         os.system("xdg-open https://m.me/TEAM69.HENTAI")
 approval()
         
